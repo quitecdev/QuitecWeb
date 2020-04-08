@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Quitec - Soluciones Tecnológicas</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style_quitec.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet" />
+    <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/owl.theme.css" rel="stylesheet" />
+    <link href="css/fakeLoader.css" rel="stylesheet" />
+    <link href="css/component.css" rel="stylesheet" />
+
+    <!-- Font Icon -->
+    <link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 9]>
+      <link href='css/animations-ie-fix.css' rel='stylesheet'>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="fakeloader"></div>
+    <!-- Navegacion -->
+    <nav class="menuQuitec navbar navbar-default navbar-fixed-top" data-role="navigation">
+        <div class="container-fluid no-side-padding bg-1">
+            <!-- Topbar -->
+            <div class="topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-4 page-scroll">
+                            <a href="#start" class="logo">
+                                <img src="img/quitec.png" alt="Logo"></a>
+                        </div>
+
+                        <div class="col-sm-9 col-xs-8">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 topbar-block first">
+                                    <div class="topbar-block-in">
+                                        <ul class="list-unstyled">
+                                            <li class="first-item"><span aria-hidden="true" class="icon glyphicon glyphicon-phone"></span>Llámanos ahora</li>
+                                            <li class="second-item">+593 02 2264035 </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 hidden-md hidden-sm hidden-xs topbar-block">
+                                    <div class="topbar-block-in">
+                                        <ul class="list-unstyled">
+                                            <li class="first-item"><span aria-hidden="true" class="icon glyphicon glyphicon-time"></span>Atendemos</li>
+                                            <li class="second-item">Lun-Vin: 09.00 - 18.00</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 topbar-block">
+                                    <div class="topbar-block-in">
+                                        <ul class="list-unstyled">
+                                            <li class="first-item"><span aria-hidden="true" class="icon glyphicon glyphicon-envelope"></span>Email</li>
+                                            <li class="second-item">info@quitec.com.ec</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-4 hidden-xs topbar-block">
+                                    <div class="topbar-social clearfix">
+                                        <ul class="list-unstyled">
+<!--                                            <li><a href="#" class="rounded-x"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#" class="rounded-x"><i class="fa fa-pinterest"></i></a></li>-->
+                                            <li class="fb"><a href="https://www.facebook.com/profile.php?id=100002462107848" target="_blank" class="rounded-x"><i class="fa fa-facebook"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-2 one-page-nav-scrolling one-page-nav__fixed">
+            <div class="container">
+                <div class="menu-container page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav">
+                            <li class="page-scroll home">
+                                <a href="#myCarousel">Home</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#nosotros">Nosotros</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#soluciones">Servicios</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#herramientas">Software</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#empresas">Experiencia</a>
+                            </li>
+                            <li class="page-scroll">
+                                <a href="#contacto">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carusel-->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image: url('img/Carousel1.jpg');"></div>
+                <div class="carousel-caption-clear carousel-caption animatedParent" data-sequence='500'>
+                    <h2 data-id='1' class='repeat animated bounceInDown slow'>Promovemos el desarrollo tecnológico de tu empresa</h2>
+                    <p data-id='2' class='repeat animated bounceInRight slow'>
+                        Digitalizamos tu negocio con la implementación de herramientas de última tecnología.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image: url('img/Carousel2.jpg');"></div>
+                <div class="carousel-caption-clear carousel-caption animatedParent" data-sequence='500'>
+                    <h2 data-id='1' class='repeat animated bounceInDown slow'>Identificamos tus necesidades y requerimientos</h2>
+                    <p data-id='2' class='repeat animated bounceInRight slow'>
+                        Creamos ideas y soluciones.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image: url('img/Carousel3.jpg');"></div>
+                <div class="carousel-caption-clear carousel-caption animatedParent" data-sequence='500'>
+                    <h2 data-id='1' class='repeat animated bounceInDown slow'>Amamos nuestro trabajo y lo que hacemos</h2>
+                    <p data-id='2' class='repeat animated bounceInRight slow'>
+                        La alegría de realizar nuestro trabajo automáticamente genera cumplimiento, responsabilidad, proactividad y seriedad en todo lo que hacemos, asegurando la satisfacción de nuestros clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <!--        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>-->
+    </header>
+    <!-- Nosotros-->
+    <section id="nosotros" class="section-content slide-menu">
+        <div class="container animatedParent" data-sequence='800'>
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center animated bounceInDown" data-id='1'>
+                            <div class="col-md-12">
+                                <div><span class="line big"></span><span>Conoce más</span><span class="line big"></span></div>
+                                <h1>DE NOSOTROS</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+                <p></p>
+                <div class="animated fadeInLeft" data-id='2'>
+                    <div class="col-md-4 col-sm-12 card">
+                        <div class="no-borders-images">
+                            <div class="card-contenedor">
+                                <h1><span class="glyphicon glyphicon-home"></span></h1>
+                                <h3>Sobre Nosotros</h3>
+                                <p>
+                                    Somos un equipo altamente capacitado y motivado, con un amplio conocimiento tecnológico  de los sistemas de información, y una dilatada experiencia del negocio,<strong> QUITEC</strong>  posee los recursos necesarios para hacer realidad los proyectos más avanzados de sus clientes. Crear soluciones caracterizadas por su innovación, creatividad y calidad que permitan mejorar sus procesos de negocio, dispuestos a llegar donde las necesidades de nuestros clientes exijan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 card card-center">
+                        <div class="no-borders-images">
+                            <div class="card-contenedor">
+                                <h1><span class="glyphicon glyphicon-road"></span></h1>
+                                <h3>Misión</h3>
+                                <p>
+                                    Nuestra misión es desarrollar continuamente servicios que satisfagan y superen las expectativas de nuestros clientes así como contribuir al éxito de ellos a través de:
+                                Soporte técnico adecuado y oportuno.
+                                Tiempos de respuesta acordes a las exigencias de nuestros clientes,
+                                Desarrollo y mejora continua de nuestros servicios y procesos,
+                                Toma de medidas positivas para mantener un alto nivel de satisfacción del cliente,
+                                Ser ampliamente reconocidos como una empresa innovadora en el desarrollo y suministro de soluciones y servicios de soporte tecnológico.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 card">
+                        <div class="no-borders-images">
+                            <div class="card-contenedor">
+                                <h1><span class="glyphicon glyphicon glyphicon-ok-sign"></span></h1>
+                                <h3>Visión</h3>
+                                <p>
+                                    La visión estratégica de nuestra empresa incluye como un elemento fundamental la formación de equipos de trabajo fuertemente cohesionados, con una alta motivación y un óptimo entrenamiento, capaces de responder adecuadamente a los desafíos de excelencia en la calidad y el servicio a nuestros clientes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Paralax 1-->
+    <section class="section-content parallax parallax-1">
+        <div class="container">
+            <div class="animatedParent">
+                <div class="owl-demo owl-carousel owl-theme animated fadeInLeft">
+                    <div class="item">
+                        <div class="col-lg-12 coment_in">
+                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i>Si buscas resultados distintos, no hagas siempre lo mismo <i class="fa fa-quote-right" aria-hidden="true"></i></h1>
+                            <div class="person">
+                                <span class="line big"></span><strong>Albert Einstein</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-lg-12 coment_in">
+                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i>Si tú no trabajas por tus sueños, alguien te contratará para que trabajes por los suyos <i class="fa fa-quote-right" aria-hidden="true"></i></h1>
+                            <div class="person">
+                                <strong>Steven Jobs</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-lg-12 coment_in">
+                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i>Las cosas no se dicen, se hacen, porque al hacerlas se dicen solas <i class="fa fa-quote-right" aria-hidden="true"></i></h1>
+                            <div class="person">
+                                <strong>Woody Allen</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Soluciones-->
+    <section id="soluciones" class="section-content slide-menu ">
+        <div class="container animatedParent" data-sequence='800'>
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title text-center animated bounceInDown " data-id='1'>
+                            <div class="col-md-12">
+                                <div><span class="line big"></span><span>Ofrecemos</span><span class="line big"></span></div>
+                                <h1>Nuestros Servicios</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row animated fadeInLeft" data-id='3'>
+                    <div class="col-md-12">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#Desarrolo">Desarrollo Software</a></li>
+                            <li><a href="#Soporte">Soporte Hardware</a></li>
+                            <li><a href="#Digitalizacion">Digitalización de Documentos</a></li>
+                            <li><a href="#Outsourcing">Outsoursing de Impresión</a></li>
+                            <li><a href="#Imprenta">Imprenta Digital Autorizada por el SRI</a></li>
+                        </ul>
+                        <div class="tab-content tab-contenedor">
+                            <div id="Desarrolo" class="tab-pane fade in active">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/Software-a-medida.png" class="img-responsive" />
+                                    </div>
+                                    <div class="col-md-7">
+                                        <h3>Desarrollo De Software</h3>
+                                        <p>
+                                            Con aplicaciones desarrolladas y en producción a empresas como <strong>SERTECPET S.A.</strong>, <strong>HOSPITAL DE LOS VALLES</strong>,<strong> DIRECTV</strong>, <strong>N$C LOGISTICS</strong>,  entre otros certifican el cumplimiento de normas de alta exigencia y calidad.
+                                            Nuestra gente tiene una tasa de rotación extremadamente baja y se enorgullecen de ser muy involucrados en sus proyectos. Las prácticas de desarrollo de aplicaciones .NET se mejoran continuamente, al igual que toda la complicada infraestructura de desarrollo.
+                                        </p>
+                                        <p>
+                                            Somos expertos en el desarrollo de .NET, y alrededor del 70% de nuestro trabajo de desarrollo son los proyectos de desarrollo web .NET. Quitec clientes han desplegado con éxito más de cien principales aplicaciones .NET, incluyendo:
+                                        </p>
+                                        <ul>
+                                            <li>PHP</li>
+                                            <li>Idiomas: PHP 4+, 5+; JavaScript, Jquery</li>
+                                            <li>Marcos: Framework, </li>
+                                            <li>Bases de datos: MySQL + SQLSERVER.</li>
+                                            <li>Los sistemas operativos: Windows</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Soporte" class="tab-pane fade">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/mantenimiento.jpg" class="img-responsive" />
+                                    </div>
+                                    <div class="col-md-7">
+                                        <h3>Soporte Hardware</h3>
+                                        <p>
+                                            El mantenimiento de ordenadores e impresoras a menudo se queda en la lista de "tareas por hacer" hasta que un ordenador de sobremesa o portátil deja de funcionar correctamente. 
+                                    No espere hasta que esté en riesgo de perder información valiosa. 
+                                    Vamos a evaluar el estado de los equipos con un reconocimiento inicial sin ningún coste. 
+                                    Nuestros expertos le proporcionará un conjunto de recomendaciones para proteger los equipos de daños causados por el deterioro natural, la interferencia del usuario, o vulnerabilidad de seguridad. 
+                                    Establecemos  un calendario para chequeos sistemáticos para evitar fallos e instalar medidas de seguridad adecuadas para proteger la información personal almacenada en el sistema.
+                                    Quitec está disponible continuamente para apoyar su negocio con cualquier necesidad de mantenimiento o de reparación de equipo informático. 
+                                        </p>
+                                        <p>
+                                            <strong>Protección de seguridad.-</strong> Mantener el tráfico no deseado de su ordenador con medidas de seguridad como protección contra virus, software espía de protección, protección contra el spam y cortafuegos.
+                                        </p>
+                                        <p>
+                                            <strong>Revisiones Programadas.-</strong> Vamos a implementar mensuales, trimestrales y anuales "chequeos" para solucionar cualquier problema pequeño antes de que se conviertan en problemas grandes.
+                                        </p>
+                                        <p>
+                                            <strong>Formación de Usuarios.-</strong> Enseñamos a los usuarios cómo resolver los problemas básicos, lo que les permite maximizar el potencial de sus máquinas.
+                                        </p>
+                                        <p>
+                                            <strong>Soporte Continuo.-</strong> Contacto con nuestro servicio de ayuda en cualquier momento para una rápida resolución de problemas del sistema. Nuestros profesionales también visitar su oficina cuando se necesita soporte in situ.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Digitalizacion" class="tab-pane fade">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/digitalizacion.jpg" class="img-responsive" />
+                                    </div>
+                                    <div class="col-md-7">
+                                        <h3>Digitalización de Documentos </h3>
+                                        <p>
+                                            La migración de documentos físicos a formato electrónico es otro servicio que Quitec ofrece a sus clientes.
+                                           <br />
+                                            Con más de 4’000.000 de documentos procesados en el área privada contamos con la experiencia y el conocimiento suficiente, para entender sus necesidades cumpliendo altos niveles de exigencia.
+                                            <br />
+                                            Sus Ventajas:
+                                        </p>
+                                        <strong>Generales</strong>
+                                        <ol>
+                                            <li>Se evita el desgaste o pérdida de los documentos originales.</li>
+                                            <li>No hay riesgo de robo o destrucción de papeles.</li>
+                                            <li>Los documentos originales no circulan interna ni externamente.</li>
+                                            <li>Los documentos pueden consultarse simultáneamente.</li>
+                                            <li>Se evita el coste y el tiempo de traslado de documentación.</li>
+                                            <li>No ocupan lugar en los escritorios.</li>
+                                            <li>Las imágenes pueden imprimirse con calidad similar a una fotocopia.</li>
+                                            <li>A través de su firma electrónica el documento digitalizado es tan válido como el físico.</li>
+                                        </ol>
+                                        <strong>Costos</strong>
+                                        <ol>
+                                            <li>Gastos de impresión.</li>
+                                            <li>Desperdicio de papel.</li>
+                                            <li>Pérdida de tiempo en consultas de documentos físicos.</li>
+                                        </ol>
+                                        <strong>Funcionalidad</strong>
+                                        <ol>
+                                            <li>El acceso on-line a los documentos desde cualquier lugar del mundo gracias a su desarrollo bajo tecnologías web posibilita su consulta, eliminando la necesidad de distribuir múltiples copias de un mismo documento.</li>
+                                            <li>Espacio físico Contribuir al ahorro por costos de espacio físico y trasladarlo a una herramienta tecnológica.</li>
+                                            <li>Los usuarios pueden tener fácil acceso y rápidamente a toda la información disponible con tan solo hacer clic. La información se obtiene al instante y las consultas son inmediatas, mediante distintos tipos de extracción de información (índices de búsqueda)</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Outsourcing" class="tab-pane fade">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/outsourcing.png" class="img-responsive" />
+                                    </div>
+                                    <div class="col-md-7">
+                                        <h3>Outsoursing de Impresión</h3>
+                                        <p>
+                                            La realidad y la competencia hoy exigen que las personas dediquen el tiempo a su negocio el outsoursing o (renta de equipos de impresión), es una alternativa excelente ya que brinda las siguientes
+                                            <br />
+                                            <strong>Ventajas:</strong>
+                                        </p>
+                                        <ol>
+                                            <li>Descarga de trabajo administrativo.</li>
+                                            <li>Reducción de costes de impresión.</li>
+                                            <li>Control a través de reportes de auditoria de producción por usuario.</li>
+                                            <li>Garantía de servicio permanente e ininterrumpido.</li>
+                                            <li>Infraestructura con equipos multifunción según la producción y tipo.</li>
+                                        </ol>
+                                        <p>
+                                            Con el servicio de Outsoursing de impresión incluye: servicio técnico, partes y piezas, suministros., usted solo paga por lo que imprime o copia, contamos con equipos desde 15 páginas por minuto a 60 páginas por minuto a color o blanco y negro.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Imprenta" class="tab-pane fade">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/facturas.png" class="img-responsive" />
+                                    </div>
+                                    <div class="col-md-7">
+                                        <h3>Imprenta Digital Autorizada por el SRI</h3>
+                                        <p>Quitec cumple todas las normas así exigidas por el Servicio de Rentas Internas, razón por la cual cuenta con la autorización como imprenta digital, la misma que permite imprimir en nuestros equipos digitales todo tipo de documentos tributarios como son:</p>
+                                        <ul>
+                                            <li>Facturas</li>
+                                            <li>Facturas Negociables</li>
+                                            <li>Notas de Venta</li>
+                                            <li>Liquidaciones de Compra de Bienes y Prestación de Servicios</li>
+                                            <li>Notas de Crédito</li>
+                                            <li>Notas de Débito</li>
+                                            <li>Guías de Remisión</li>
+                                            <li>Comprobantes de Retención</li>
+                                            <li>Boletos</li>
+                                            <li>Otros Documentos</li>
+                                            <li>Liquidacion de Compras de Bines Muebles Usados</li>
+                                            <li>Liquidacion de Compras de Vehículos Usados</li>
+                                        </ul>
+                                        <p>
+                                            Todo esto en tiempos que van de 20 minutos  a tiempos acordados con nuestros clientes según el trabajo a realizarse.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Paralax 2-->
+    <section id="compromiso">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="contenedor-compromiso">
+                        <div id="celda" class="left">
+                            <p><span class="texto-compromiso01">nuestro</span> <span class="texto-compromiso02">compromiso</span></p>
+                        </div>
+                        <div id="celda" class="center">
+                            <p class="texto-compromiso03">{</p>
+                        </div>
+                        <div id="celda" class="right">
+                            <p><span class="texto-compromiso04">Responsabilidad.</span></p>
+                            <p><span class="texto-compromiso04">Capacitación continua.</span></p>
+                            <p><span class="texto-compromiso04">Innovación constante.</span></p>
+                            <p><span class="texto-compromiso04">Respeto y diálogo.</span></p>
+                            <p><span class="texto-compromiso04">Máxima calidad.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Herramientas-->
+    <section id="herramientas" class="section-content">
+        <div class="container animatedParent" data-sequence='500'>
+            <div class="row">
+                <div class="section-title text-center animated bounceInDown " data-id='1'>
+                    <div class="col-md-12">
+                        <div><span class="line big"></span><span>Proyectos</span><span class="line big"></span></div>
+                        <h1>NUESTRO SOFTWARE</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 grises animated fadeInLeft" data-id='3'>
+                    <div class="grid">
+                        <div class="row">
+                            <figure class="effect-bubba">
+                                <img src="img/sadd.png" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <p>Nuestro sistema de Digitalización y administración de documentos digitales de desarrollo propio, permite alojar y administrar todos los documentos digitalizados para su organización y posterior consulta.</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="effect-bubba">
+                                <img src="img/pv.png" alt="img16" class="img-responsive" />
+                                <figcaption>
+                                    <p>Nuestro software de punto de venta online permite contar con un recurso de control facturación, (Bodega inventario),  reportes de ventas diarias, sin necesidad de invertir en software, es tan practico que se puede facturar desde una Tablet o Smartphone, gracias a su tecnologia.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="row">
+                            <figure class="effect-bubba">
+                                <img src="img/sysalert.png" alt="img02" class="img-responsive" />
+                                <figcaption>
+                                    <p>Nuestra plataforma permite enviar mensajes SMS a diferentes grupos definidos, entre los muchos usos que se puede dar a la plataforma están: Envió de mensajes a clientes por el servicio prestado, Envió de mensajes a grupos de contingencia y/o seguridad interna empresarial.</p>
+                                </figcaption>
+                            </figure>
+                            <figure class="effect-bubba">
+                                <img src="img/sso.png" alt="img16" class="img-responsive" />
+                                <figcaption>
+                                    <p>(Sistema de Salud Ocupacional) Este software es un sistema medico de salud ocupacional completo el mismo que brinda muchas herramientas para Doctores Ocupacionales, Ingenieros en Riesgos Ocupacionales ya que permite el registro de información por módulos. Este software permite el control total de los riesgos de trabajo por puesto de trabajo y área de trabajo y en el tema medico bajo la normativa CIE10 Y OIT.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Paralax 2-->
+    <section class="section-content parallax parallax-2">
+        <div class="container">
+            <div class="animatedParent">
+                <div class="owl-demo owl-carousel owl-theme animated fadeInLeft">
+                    <div class="item">
+                        <div class="col-lg-12 coment_in">
+                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i>Llegar juntos es el principio. Mantenerse juntos, es el progreso. Trabajar juntos es el éxito <i class="fa fa-quote-right" aria-hidden="true"></i></h1>
+                            <div class="person">
+                                <span class="line big"></span><strong>Henry Ford</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-lg-12 coment_in">
+                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i>Si tú no trabajas por tus sueños, alguien te contratará para que trabajes por los suyos <i class="fa fa-quote-right" aria-hidden="true"></i></h1>
+                            <div class="person">
+                                <strong>Steven Jobs</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-lg-12 coment_in">
+                            <h1><i class="fa fa-quote-left" aria-hidden="true"></i>Las cosas no se dicen, se hacen, porque al hacerlas se dicen solas <i class="fa fa-quote-right" aria-hidden="true"></i></h1>
+                            <div class="person">
+                                <strong>Woody Allen</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Empresas-->
+    <section id="empresas" class="section-content">
+        <div class="container animatedParent" data-sequence='700'>
+            <div class="row">
+                <div class="section-title text-center animated bounceInDown" data-id='1'>
+                    <div class="col-md-12">
+                        <div><span class="line big"></span><span>NUESTROS</span><span class="line big"></span></div>
+                        <h1>EXPERIENCIA</h1>
+                        <p class="animated growIn" data-id='1'>Nuestra mayor satisfacción profesional ha sido que nuestras soluciones han servido para el crecimiento y desarrollo profesional de nuestros clientes con los cuales hemos tenido el privilegio de trabajar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" owl-demo owl-carousel owl-theme animated fadeIn" data-id='2'>
+                <div class="item">
+                    <img src="img/hvalles.png" alt="" />
+                </div>
+                <div class="item">
+                    <img src="img/Sertecpet.png" alt="" />
+                </div>
+                <div class="item">
+                    <img src="img/directv.png" alt="" />
+                </div>
+                <div class="item">
+                    <img src="img/vizzio.png" alt="" />
+                </div>
+                <div class="item">
+                    <img src="img/nc.png" alt="" />
+                </div>
+                <div class="item">
+                    <img src="img/mega.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contacto-->
+    <section id="contacto" class="section-content slide-menu">
+        <div class="container animatedParent" data-sequence='700'>
+            <div class="row">
+                <div class="section-title text-center">
+                    <div class="col-md-12">
+                        <div class="animated fadeInUpShort" data-id='1'><span class="line big"></span><span class="titulo1">SI TIENES ALGÚN REQUERIMIENTO O INQUIETUD</span><span class="line big"></span></div>
+                        <h1 class="item_left animated fadeInDownShort titulo1" data-id='2'>CONTÁCTANOS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 animated fadeInLeftShort divContanto" data-id='3'>
+                    <span class="icon-contanto glyphicon glyphicon-map-marker"></span>
+                    <br>
+                    <strong>Dirección</strong><br>
+                    <p>Republica y Av. Atahualpa - Edif. Nuyan piso 3 of 301</p>
+                </div>
+                <div class="col-md-4 animated fadeInLeftShort divContanto" data-id='3'>
+                    <span class="icon-contanto glyphicon glyphicon-phone-alt divContanto"></span>
+                    <br>
+                    <strong>Teléfono</strong><br />
+                    <p>(593)(02)  2264035</p>
+                </div>
+                <div class="col-md-4 animated fadeInLeftShort divContanto" data-id='3'>
+                    <span class="icon-contanto glyphicon glyphicon-envelope"></span>
+                    <br>
+                    <strong>Gerencia</strong><br />
+                    <a href="mailto:m-roman@quitec.com.ec">m-roman@quitec.com.ec</a>
+                </div>
+            </div>
+
+            <div class="row formscontacto">
+                <div class="col-md-12">
+                    <input name="nombre" type="text" id="nombre_proyecto" placeholder="NOMBRE Y APELLIDOS*" required="">
+                </div>
+                <div class="col-md-6">
+                    <input name="telefono" id="telefono_proyecto" type="tel" placeholder="TELÉFONO">
+                </div>
+                <div class="col-md-6">
+                    <input type="email" name="email" id="email_proyecto" placeholder="EMAIL*" required="">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="empresa_cliente" id="empresa_cliente_proyecto" placeholder="EMPRESA">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="servicio" id="servicio" placeholder="PRODUCTO/SERVICIO">
+                </div>
+                <div class="col-md-12">
+                    <textarea name="comentarios" id="comentarios_proyecto" placeholder="CUÉNTANOS CON DETALLE DE QUÉ TRATA TU PROYECTO..."></textarea>
+                </div>
+                <!--                <div class="col-md-12" align="center">
+                    <input type="submit" name="submit_enviar_proyecto" id="submit_enviar_proyecto" class="submit" value="ENVIAR">
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!-- Mapa-->
+    <section id="container-map">
+        <div class="container-fluid divMap">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            Copyright © 2016 The Project by QUITEC. All Rights Reserved
+        </div>
+    </section>
+    <a href="#myCarousel" id="back-top" style="display: block;"><i class="fa fa-angle-up fa-2x"></i></a>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADYStrPOXeGBTicYN5iKD80POUVdq0em4"></script>
+    <script src="js/css3-animate-it.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/FakeLoader.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/toucheffects.js"></script>
+    <script src="js/jsQuitec.js"></script>
+
+
+</body>
+
+</html>
